@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.top h1 {
+  margin: 0;
+}
+
+.search {
+  flex-grow: 1;
+  margin-left: 40vh;
+}
+
+.input {
+  width: 30%;
+  padding: 8px;
+  transition: width 0.3s ease;
+}
+
+.inp:focus {
+  width: 50%;
+}
+
+.register {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 5vh;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.books {
+  padding: 15px;
+  max-width: 250px;
+  transition: transform 0.3s ease;
+  margin-left: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-left: 20vh;
+  overflow: hidden;
+}
+
+.books img {
+  width: 100%;
+  border-radius: 1px;
+  outline: none;
+}
+
+.books:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.books:hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.title {
+  margin: 5px 0;
+}
+
+.rating,
+.pages {
+  margin: 5px 0;
+}
+
+
